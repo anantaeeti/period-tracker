@@ -7,7 +7,7 @@ from google import genai
 
 # ---------- Gemini Setup ----------
 
-client = genai.Client(api_key=os.getenv("AIzaSyAMxOGwW8lHF3DdVkJ9QgX0oa4f3Zj5ZIE"))
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 DATA_FILE = "period_data.json"
 
